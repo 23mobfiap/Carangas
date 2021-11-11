@@ -26,7 +26,7 @@ class CarangasSnapshotTests: FBSnapshotTestCase {
 		super.setUp()
 		
 		recordMode = false
-		fileNameOptions = [.device, .screenSize, .OS]
+		fileNameOptions = [.device, .screenSize]
 		
 		sut = CarViewController.instantiateFromStoryboard(.visualization)
     }
