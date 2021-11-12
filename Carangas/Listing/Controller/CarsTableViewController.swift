@@ -32,7 +32,7 @@ class CarsTableViewController: UITableViewController {
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        loadCars()
+        //loadCars()
     }
     
     // MARK: - Methods
