@@ -20,8 +20,6 @@ jobs:
           default=$(echo $scheme_list | ruby -e "require 'json'; puts JSON.parse(STDIN.gets)['project']['targets'][0]")
           echo $default | cat >default
           echo Using default scheme: $default
-          
-      - name: Cocoapods
       - name: CocoaPods Action
         # You may pin to the exact commit or the version.
         # uses: ty0x2333/cocoapods-action@6bed2568d09878228fa17c09e97fd38a76991fe7
