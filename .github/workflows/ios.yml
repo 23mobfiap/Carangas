@@ -36,9 +36,9 @@ jobs:
           # Additional `pod lib lint` params
           # additional_lint_params: # optional, default is 
           # Run test
-          # test: # optional, default is true
+          test: false
           # Validate Pod
-          # lint: # optional, default is true
+          lint: false
           
       - name: Build
         env:
